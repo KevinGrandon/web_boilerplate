@@ -1,20 +1,22 @@
 {
-    "name": "boilerplate",
-    "description": "A boilerplate application framework for websites and web applications.",
-    "version": "0.0.1",
-    "author": "Kevin Grandon",
-    "homepage": "https://github.com/KevinGrandon/web_boilerplate",
-    "bugs": "https://github.com/KevinGrandon/web_boilerplate/issues",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/KevinGrandon/web_boilerplate.git"
-    },
-    "dependencies": {
-        "express": "3.x",
-        "jade": "1.x",
-        "nodeunit": "*"
-    },
-    "engines": {
-        "node": ">=0.10.0"
-    }
+  "name": "boilerplate",
+  "description": "A boilerplate application framework for websites and web applications.",
+  "version": "0.0.1",
+  "author": "Kevin Grandon",
+  "homepage": "https://github.com/KevinGrandon/web_boilerplate",
+  "bugs": "https://github.com/KevinGrandon/web_boilerplate/issues",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/KevinGrandon/web_boilerplate.git"
+  },
+  "dependencies": {
+    "bootstrap": "https://github.com/twbs/bootstrap/tarball/master",
+    "express": "3.x",
+    "jade": "1.x",
+    "nodeunit": "*",
+    "grunt": "0.4.x"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
 }

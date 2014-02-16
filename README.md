@@ -9,5 +9,15 @@ I wanted an application boilerplate for the types of applications that I like to
 ## Technologies
 
 * Built on node.js
+* Grunt for task running.
 * Express.js
 * Jade Templating
+
+
+## Usage
+
+Install everything with:
+
+```
+npm install && grunt
+```
