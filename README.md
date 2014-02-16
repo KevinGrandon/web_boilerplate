@@ -9,9 +9,11 @@ I wanted an application boilerplate for the types of applications that I like to
 ## Technologies
 
 * Built on node.js
-* Grunt for task running.
-* Express.js
-* Jade Templating
+* Grunt - Task running.
+* Express.js - For routing/middleware.
+* Jade Templating - For templates
+* LessCSS - CSS pre-processor
+* Bootstrap - For default theming/styles
 
 
 ## Usage
