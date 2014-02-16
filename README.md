@@ -23,3 +23,9 @@ Install everything with:
 ```
 npm install && grunt
 ```
+
+Start the server: 
+
+```
+node server.js
+```
