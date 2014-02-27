@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
 
+var config = {
+	port: 3000
+};
+
 app.use('/bootstrap', express.static(__dirname + '/css/bootstrap/dist'));
 app.use('/css', express.static(__dirname + '/css'));
 app.use('/js', express.static(__dirname + '/js'));
@@ -15,5 +19,5 @@ app.get('/', function (req, res) {
 	});
 });
 
-app.listen(3000);
-console.log('Server started.');
+app.listen(config.port);
+console.log('Server started on port: ' + config.port);
